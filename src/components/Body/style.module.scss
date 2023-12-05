@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+
+}
+
+.cardActions {
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-size: small;
+
+    .span {
+        display: block;
+        margin-bottom: 15px;
+        margin-left: 31px;
+        margin-top: -25px;
+    }
+}
+
+.cardContent {
+    border-bottom: 1px solid rgb(236, 230, 230);
+
+}

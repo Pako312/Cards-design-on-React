@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.cardsBox {
+  display: grid;
+  margin-top: 50px;
+  gap: 5px;
+  grid-template-columns: repeat(3, 2fr);
+}
+

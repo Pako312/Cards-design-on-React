@@ -1,0 +1,35 @@
+.appBox {
+    box-shadow: red;
+
+    .NavBar {
+        display: flex;
+        justify-content: space-between;
+        color: black;
+        background-color: #ffffff;
+        box-shadow: none;
+        height: 100px;
+
+        .addBtn {
+            text-transform: none;
+            background-color: rgb(114, 79, 185);
+            border-radius: 10px;
+        }
+
+        .CompanyBox {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .NavIcons {
+            color: black;
+        }
+
+
+
+    }
+
+
+
+}
