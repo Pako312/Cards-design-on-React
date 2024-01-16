@@ -8,19 +8,28 @@ import styles from './style.module.scss'
 import SystemUpdateAltIcon from '@mui/icons-material/SystemUpdateAlt';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 
-export default function Cards() {
+export default function Cards (props) {
+
+    const {
+        image,
+        height,
+        text,
+        title,
+
+    } = props
+
     return (
         <Card sx={{ maxWidth: 345 }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
-                    height="140"
-                    image="https://www.logo.wine/a/logo/Dropbox_(service)/Dropbox_(service)-Icon-Logo.wine.svg"
+                    height={height}
+                    image={image}
                     alt="green iguana"
                 />
                 <CardContent className={styles.cardContent}>
-                    <Typography className={styles.title} gutterBottom variant="h5" component="div">
-                        Dropbox
+                    <Typography className={styles.title} gutterBottom variant="h5" component="div" >
+                    {title}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                         Lizards are a widespread group of squamate reptiles, with over 6,000
