@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/my-app-9/static/css/main.675f7f5d.css",
-    "main.js": "/my-app-9/static/js/main.e62633b6.js",
+    "main.js": "/my-app-9/static/js/main.45f82575.js",
+    "static/media/slack6.jpg": "/my-app-9/static/media/slack6.fa8b4d9fd3909d19dc7b.jpg",
+    "static/media/lyft.jpg": "/my-app-9/static/media/lyft.06b2f7a78f2041fd2921.jpg",
+    "static/media/Git.png": "/my-app-9/static/media/Git.2b44bd6207e3194408bb.png",
     "index.html": "/my-app-9/index.html",
     "main.675f7f5d.css.map": "/my-app-9/static/css/main.675f7f5d.css.map",
-    "main.e62633b6.js.map": "/my-app-9/static/js/main.e62633b6.js.map"
+    "main.45f82575.js.map": "/my-app-9/static/js/main.45f82575.js.map"
   },
   "entrypoints": [
     "static/css/main.675f7f5d.css",
-    "static/js/main.e62633b6.js"
+    "static/js/main.45f82575.js"
   ]
 }
